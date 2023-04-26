@@ -1,0 +1,81 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 30000000
+Simulation Instructions: 30000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 3200 MT/s
+
+CPU 0 runs ../traces//pr-3.trace.gz
+CPU 0 Bimodal branch predictor
+CPU 0 LLC Berti prefetcher
+Heartbeat CPU 0 instructions: 10000003 cycles: 3380882 heartbeat IPC: 2.95781 cumulative IPC: 2.95781 (Simulation time: 0 hr 0 min 9 sec) 
+Heartbeat CPU 0 instructions: 20000002 cycles: 11621471 heartbeat IPC: 1.21351 cumulative IPC: 1.72095 (Simulation time: 0 hr 0 min 26 sec) 
+Heartbeat CPU 0 instructions: 30000001 cycles: 23967417 heartbeat IPC: 0.809982 cumulative IPC: 1.2517 (Simulation time: 0 hr 1 min 1 sec) 
+
+Warmup complete CPU 0 instructions: 30000001 cycles: 23967417 (Simulation time: 0 hr 1 min 1 sec) 
+
+Heartbeat CPU 0 instructions: 40000000 cycles: 238748813 heartbeat IPC: 0.046559 cumulative IPC: 0.046559 (Simulation time: 0 hr 2 min 59 sec) 
+Heartbeat CPU 0 instructions: 50000000 cycles: 454283749 heartbeat IPC: 0.0463962 cumulative IPC: 0.0464774 (Simulation time: 0 hr 4 min 56 sec) 
+Heartbeat CPU 0 instructions: 60000003 cycles: 661640086 heartbeat IPC: 0.0482262 cumulative IPC: 0.0470461 (Simulation time: 0 hr 6 min 49 sec) 
+Finished CPU 0 instructions: 30000002 cycles: 637672669 cumulative IPC: 0.0470461 (Simulation time: 0 hr 6 min 49 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 0.0470461 instructions: 30000002 cycles: 637672669
+L1D TOTAL     ACCESS:   39590835  HIT:    6418569  MISS:   33172266
+L1D LOAD      ACCESS:    9995090  HIT:    4873453  MISS:    5121637
+L1D RFO       ACCESS:     352968  HIT:     352968  MISS:          0
+L1D PREFETCH  ACCESS:   29242777  HIT:    1192148  MISS:   28050629
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:   30541346  ISSUED:   30270531  USEFUL:     548550  USELESS:   27502001
+L1D AVERAGE MISS LATENCY: 110.289 cycles
+L1I TOTAL     ACCESS:    9047827  HIT:    9047827  MISS:          0
+L1I LOAD      ACCESS:    9047827  HIT:    9047827  MISS:          0
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1I AVERAGE MISS LATENCY: -nan cycles
+L2C TOTAL     ACCESS:   53038133  HIT:    8455318  MISS:   44582815
+L2C LOAD      ACCESS:    4913037  HIT:     655653  MISS:    4257384
+L2C RFO       ACCESS:          0  HIT:          0  MISS:          0
+L2C PREFETCH  ACCESS:   48098104  HIT:    7772973  MISS:   40325131
+L2C WRITEBACK ACCESS:      26992  HIT:      26692  MISS:        300
+L2C PREFETCH  REQUESTED:  106809457  ISSUED:  106807392  USEFUL:     376066  USELESS:   39948500
+L2C AVERAGE MISS LATENCY: 115.786 cycles
+LLC TOTAL     ACCESS:   50720554  HIT:   22700249  MISS:   28020305
+LLC LOAD      ACCESS:    4171589  HIT:    1910724  MISS:    2260865
+LLC RFO       ACCESS:          0  HIT:          0  MISS:          0
+LLC PREFETCH  ACCESS:   46535567  HIT:   20776476  MISS:   25759091
+LLC WRITEBACK ACCESS:      13398  HIT:      13049  MISS:        349
+LLC PREFETCH  REQUESTED:   10589973  ISSUED:    8381734  USEFUL:    1042002  USELESS:   24715275
+LLC AVERAGE MISS LATENCY: 165.395 cycles
+Major fault: 0 Minor fault: 12615
+
+CPU 0 LLC berti prefetcher final stats
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:   16112861  ROW_BUFFER_MISS:   11907078
+ DBUS_CONGESTED:   19925986
+ WQ ROW_BUFFER_HIT:       2249  ROW_BUFFER_MISS:       9251  FULL:          0
+
+ AVG_CONGESTED_CYCLE: 6
+
+CPU 0 Branch Prediction Accuracy: 96.3916% MPKI: 6.89347 Average ROB Occupancy at Mispredict: 132.631
+
+Branch types
+NOT_BRANCH: 24268780 80.8959%
+BRANCH_DIRECT_JUMP: 0 0%
+BRANCH_INDIRECT: 0 0%
+BRANCH_CONDITIONAL: 5731222 19.1041%
+BRANCH_DIRECT_CALL: 0 0%
+BRANCH_INDIRECT_CALL: 0 0%
+BRANCH_RETURN: 0 0%
+BRANCH_OTHER: 0 0%
+
