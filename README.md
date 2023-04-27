@@ -20,7 +20,7 @@ In this project, we aimed to build upon the original implementation of the resea
 - spec_gcc_001.champsimtrace.xz
 - sssp-3.trace.gz
  ## presentation
- For a more detailed understanding of what we have done, please refer to the following links: [video](https://drive.google.com/file/d/19zCp1uJ6k5SIRCJyZHFzYf62DoJzqx0B/view?usp=sharing) and [presentation](https://docs.google.com/presentation/d/1Q8yZPM2Aft-TVjLAGtYQPp328M-bk4fg/edit?usp=sharing&ouid=102546057728226842245&rtpof=true&sd=true)
+ For a more detailed understanding of what we have done, please refer to the following links: [vedio](https://drive.google.com/file/d/19zCp1uJ6k5SIRCJyZHFzYf62DoJzqx0B/view?usp=sharing) and [presentation](https://docs.google.com/presentation/d/1Q8yZPM2Aft-TVjLAGtYQPp328M-bk4fg/edit?usp=sharing&ouid=102546057728226842245&rtpof=true&sd=true)
  
  ## results
 The results and plots are stored in their respective folders. The 'results' folder contains the simulation results of the traces,
